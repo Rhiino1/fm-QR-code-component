@@ -1,4 +1,5 @@
 import Footer from "./layouts/Footer";
+import qr from './assets/images/image-qr-code.png'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           >
             <section id="card-img">
               <img
-                src="/src/assets/images/image-qr-code.png"
+                src={qr}
                 alt="qr-code"
                 id="qr-code"
                 className="w-[300px] rounded-xl"
